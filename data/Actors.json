@@ -1,0 +1,6 @@
+[
+null,
+{"id":1,"battlerName":"3_9","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Crimson","nickname":"Crim","note":"","profile":""},
+{"id":2,"battlerName":"1-99999","characterIndex":3,"characterName":"Actor1","classId":3,"equips":[2,1,2,3,0],"faceIndex":1,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ruby","nickname":"Red","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"Nature","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butterdog","nickname":"B-Dawg","note":"","profile":"Dog with butter on him."}
+]

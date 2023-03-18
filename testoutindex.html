@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #greenbox {
+            background-color: green;
+            margin: auto;
+            border-radius: auto;
+            border-color: lightblue;
+            border-style: solid;
+            display: flex;
+            justify-content: space-around;
+          padding:10px;
+        }
+
+        #Bluebox {
+            background-color: lightblue;
+            width: 800px;
+            margin: auto;
+            filter: drop-shadow(10px 4px 4px black);
+
+        }
+
+        #Bluebox h1 {
+            text-align: center;
+        }
+
+        #purplebox {
+            background-color: white;
+            border-radius: 5px;
+            border-color: purple;
+            border-style: solid;
+            background-color: purple;
+            width: 60%;
+            
+            
+            
+
+        }
+
+        .Whitebox {
+            background-color: white;
+            max-width: 500px;
+            max-height: 400px;
+            border-radius: 5px;
+            border-color: grey;
+            border-style: inset;
+            font-style: italic;
+            padding: 10px;
+           margin: 10px;
+            
+            
+            
+        }
+       #firstH{font-style: normal;}
+        #linkbox {
+            background-color: white;
+           width:30%;
+           padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Bluebox">
+        <h1>H1 inside this box is centered.</h1>
+        <marquee behavior="css2" direction="left">This text is scrolling to the left inside an 800px box</marquee>
+        <div id='greenbox'>
+            <div id="purplebox">
+
+                <div class="Whitebox">
+
+                    <h2 id="firstH">H2 in these boxes are BOLDER</h2>
+                    <p>This is a paragraph. The text is
+                        italics.
+                        The column these "blog posts" are in take up 60% of the box the column is in. Hint: I made
+                        the
+                        parent box a flexbox and justified the content to "space-around".</p>
+                </div>
+                <div class="Whitebox">
+                    <h2 id="firstH">H2 in these boxes are BOLDER</h2>
+                    <p>This is a paragraph. The text is
+                        italics.
+                        The column these "blog posts" are in take up 60% of the box the column is in. Hint: I made
+                        the
+                        parent box a flexbox and justified the content to "space-around".</p>
+                </div>
+                <div class="Whitebox">
+                    <h2 id="firstH">H2 in these boxes are BOLDER</h2>
+                    <p>This is a paragraph. The text is
+                        italics.
+                        The column these "blog posts" are in take up 60% of the box the column is in. Hint: I made
+                        the
+                        parent box a flexbox and justified the content to "space-around".</p>
+                </div>
+                
+            </div>
+            <div id="linkbox">
+                <p>This text is a paragraph, but not in italics because it's not in a "blog post"</p>
+                <p>This is where the links go. This column takes up 30% of the box this columns is in.</p>
+                <h3>My favorite games</h3>
+
+                <ul>
+                    <li><a href="www.neopets.com">Neopets</a></li>
+                    <li><a href="www.runescape.com">Runescape</a></li>
+                    <li><a href="www.counter-strike.net">Counter-Strike</a></li>
+                    <li><a href="https://www.rpgmakerweb.com/">RPG Maker</a></li>
+                </ul>
+
+                <h3>Game Guides</h3>
+
+                <ul>
+                    <li><a href="http://www.sunnyneo.com/battledome/improved_calculator.php">Battledome Calc</a></li>
+                    <li><a href="https://www.runehq.com/calculator">Rune Calc</a></li>
+                    <li><a href="https://twhl.info/">TWHL Mapping</a></li>
+                    <li><a href="https://rpgmaker.fandom.com/wiki/Don%27s_Adventures">Don's RM2k World</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+</body>
+
+</html>
